@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="projectframework.example.admin.projectframework.MainActivity">
+
+    <Button
+        android:id="@+id/frame_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="常见APP视图结构"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/constraintLayout"
+        android:layout_marginLeft="8dp"/>
+
+    <Button
+        android:id="@+id/permission_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="权限申请"
+        app:layout_constraintLeft_toRightOf="@id/frame_btn"
+        android:layout_marginLeft="8dp" />
+
+</android.support.constraint.ConstraintLayout>

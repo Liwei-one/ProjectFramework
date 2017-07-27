@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/navigation_tab_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/color_aaaaaa"
+        android:orientation="horizontal"
+        android:paddingTop="1dp"
+        android:weightSum="5" >
+
+        <LinearLayout
+            android:id="@+id/id_news_ll"
+            style="@style/style_navigation_tab_ll" >
+
+            <ImageView
+                android:id="@+id/id_news_iv"
+                style="@style/style_navigation_tab_iv"
+                android:background="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/id_news_tv"
+                style="@style/style_navigation_tab_tv"
+                android:text="新闻"
+                android:textColor="@color/color_eb413d" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_read_ll"
+            style="@style/style_navigation_tab_ll" >
+
+            <ImageView
+                android:id="@+id/id_read_iv"
+                style="@style/style_navigation_tab_iv"
+                android:background="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/id_read_tv"
+                style="@style/style_navigation_tab_tv"
+                android:text="阅读"
+                android:textColor="@color/color_aaaaaa" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_va_ll"
+            style="@style/style_navigation_tab_ll" >
+
+            <ImageView
+                android:id="@+id/id_va_iv"
+                style="@style/style_navigation_tab_iv"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/id_va_tv"
+                style="@style/style_navigation_tab_tv"
+                android:text="视听"
+                android:textColor="@color/color_aaaaaa" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_topic_ll"
+            style="@style/style_navigation_tab_ll" >
+
+            <ImageView
+                android:id="@+id/id_topic_iv"
+                style="@style/style_navigation_tab_iv"
+                android:background="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/id_topic_tv"
+                style="@style/style_navigation_tab_tv"
+                android:text="话题"
+                android:textColor="@color/color_aaaaaa" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_pc_ll"
+            style="@style/style_navigation_tab_ll" >
+
+            <ImageView
+                android:id="@+id/id_pc_iv"
+                style="@style/style_navigation_tab_iv"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/id_pc_tv"
+                style="@style/style_navigation_tab_tv"
+                android:text="我"
+                android:textColor="@color/color_aaaaaa" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/home_fl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
